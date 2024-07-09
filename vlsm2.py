@@ -47,7 +47,7 @@ for i, hostx in enumerate(hosts):
         break
     
     print(f"\nNetwork {i+1}:")
-    print(f"Network IP: {net_addr_ip}")
+    print(f"Network IP: {net_addr_ip}/{subnet_mask}")
     print(f"First Usable IP: {first_ip_ip}")
     print(f"Last Usable IP: {last_ip_ip}")
     print(f"Broadcast IP: {broadcast_ip_ip}")
